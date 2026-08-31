@@ -4,3 +4,13 @@
 # touch wordt gebruikt om files aan te maken (one.txt, two.txt...)
 # met git status kan je zien welke files veranderd zijn
   # als hier untracked files bij staan dan zijn die nog niet toegevoegd aan de repository
+# met git add --all kunnen de files naar de stage worden gebracht
+# met git add . kan je alle files van een folder naar stage brengen als je je in de folder bevind
+# met git add * stage je alle files behalve de verwijderde files
+# met git add * kan je ook specifieke files toevoegen (bijv. git add *.txt)
+# om te comitten gebruik commando "git commit -m"
+# om de commit te ontdoen gebruik commando "git reset HEAD~"
+# als je iets wil deleten en dan gelijk stagen gebruik commando "git rm four.txt" (four.txt als voorbeeld)
+# voor echte reset (deleted files terugkrijgen bijvoorbeeld) gebruik "git reset --hard"
+
+video op 39 minuten
