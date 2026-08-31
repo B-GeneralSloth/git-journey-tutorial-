@@ -2,3 +2,5 @@
 # cd wordt gebruikt om directories te openen ("cd .." om terug te gaan)
 # mkdir wordt gebruikt om directories te maken
 # touch wordt gebruikt om files aan te maken (one.txt, two.txt...)
+# met git status kan je zien welke files veranderd zijn
+  # als hier untracked files bij staan dan zijn die nog niet toegevoegd aan de repository
