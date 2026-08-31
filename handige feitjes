@@ -9,6 +9,8 @@
 # voor geschiedenis bekijken en commit strings gebruik "git log", dit staat vol met commit-id's
 # voor username of email veranderen gebruik git config --global user.name/user.email "x"
 # het verschil tussen twee verschillende commits kan je zien met "git diff 'commit-id1 commit-id2' "
+# als er een file is aangepast en je wilt dat het weer terug ging naar hoe het was, "gebruik git restore one.txt" (one.txt als voorbeeld)
+# je kan ook elke file restoren met de commando "git restore ."
 
 # Committen
 (Staging)
@@ -23,15 +25,20 @@
 # -m achter de commit commando is voor een berichtje achterlaten
 # je kan terug gaan naar een vorige commit door de geschiednis te bekijken met behulp van git log
 # en vervolgens "git checkout 'commit id' " te gebruiken
+# gebruik "git revert 'commit-id' " om de veranderingen van de commit ontdaan te maken en in te stellen als nieuwe commit
 
 # Branchen
 # gebruik git branch om alle branches te bekijken en nieuwe branches te maken ("git branch 'naam' ")
 # gebruik "git checkout 'naam branch' " om te switchen naar een andere branch
 # als er een file wordt gecommit in een andere branch dan zal deze file niet meer te zien zijn in de main branch
+# gebruik "git stash" om onafgemaakt werk tijdelijk te bewaren, hiermee kan je wisselen van branches zonder te comitten
+# vervolgens gebruik je "git stash pop" om weer verder te werken
 
 # Mergen
 # voor mergen ga je eerst naar de branch waarmee je wilt dat gemerged wordt, vervolgens gebruik je "git merge (branch naam) -m"
 # een merge moet je twee keer uitvoeren wil je dat beide branches hetzelfde zijn
+# als er veranderingen zijn gekomen in de main branch die je ook wilt hebben in een andere branch gebruik dan "git rebase main" als je in de branch zit waar je de verandering in wilt brengen
+            # de rebase command moet eigenlijk alleen gebruikt worden voor persoonlijke files, het veranderd commit-id's als je het gebruikt
 
 # Github
 # om alles vervolgens naar github te sturen gebruik de commando "git push origin main" (main mag natuurlijk ook een andere branch zijn)
