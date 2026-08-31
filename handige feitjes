@@ -35,3 +35,5 @@
 
 # Github
 # om alles vervolgens naar github te sturen gebruik de commando "git push origin main" (main mag natuurlijk ook een andere branch zijn)
+# om dingen van github te halen en vervolgens in je lokale bestanden te zetten gebruik je de commando's "git fetch" en dan "git merge"
+# deze twee commando's kunnen ook in 1 keer met de commando git pull
