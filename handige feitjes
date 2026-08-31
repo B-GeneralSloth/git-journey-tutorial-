@@ -1,0 +1,4 @@
+# "open ." commando werkt niet op windows, hiervoor gebruik je "explorer ."
+# cd wordt gebruikt om directories te openen ("cd .." om terug te gaan)
+# mkdir wordt gebruikt om directories te maken
+# touch wordt gebruikt om files aan te maken (one.txt, two.txt...)
