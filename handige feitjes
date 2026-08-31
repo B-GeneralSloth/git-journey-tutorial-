@@ -32,3 +32,6 @@
 # Mergen
 # voor mergen ga je eerst naar de branch waarmee je wilt dat gemerged wordt, vervolgens gebruik je "git merge (branch naam) -m"
 # een merge moet je twee keer uitvoeren wil je dat beide branches hetzelfde zijn
+
+# Github
+# om alles vervolgens naar github te sturen gebruik de commando "git push origin main" (main mag natuurlijk ook een andere branch zijn)
