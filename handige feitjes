@@ -2,6 +2,8 @@
 # cd wordt gebruikt om directories te openen ("cd .." om terug te gaan)
 # mkdir wordt gebruikt om directories te maken
 # touch wordt gebruikt om files aan te maken (one.txt, two.txt...)
+# gebruik git init om een repository aan te maken
+
 # met git status kan je zien welke files veranderd zijn
       # als hier untracked files bij staan dan zijn die nog niet toegevoegd aan de repository
 # als je iets wil deleten en dan gelijk stagen gebruik commando "git rm four.txt" (four.txt als voorbeeld)
@@ -41,6 +43,6 @@
             # de rebase command moet eigenlijk alleen gebruikt worden voor persoonlijke files, het veranderd commit-id's als je het gebruikt
 
 # Github
-# om alles vervolgens naar github te sturen gebruik de commando "git push origin main" (main mag natuurlijk ook een andere branch zijn)
+# om alles vervolgens naar github te sturen gebruik de commando "git push origin main/master" (main of master mag natuurlijk ook een andere branch zijn)
 # om dingen van github te halen en vervolgens in je lokale bestanden te zetten gebruik je de commando's "git fetch" en dan "git merge"
 # deze twee commando's kunnen ook in 1 keer met de commando git pull
