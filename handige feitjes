@@ -43,6 +43,7 @@
             # de rebase command moet eigenlijk alleen gebruikt worden voor persoonlijke files, het veranderd commit-id's als je het gebruikt
 
 # Github
+# voordat je pushed moet er eerst een github zijn om naar te pushen hiervoor gebruik je "git remote add origin 'github link' "
 # om alles vervolgens naar github te sturen gebruik de commando "git push origin main/master" (main of master mag natuurlijk ook een andere branch zijn)
 # om dingen van github te halen en vervolgens in je lokale bestanden te zetten gebruik je de commando's "git fetch" en dan "git merge"
 # deze twee commando's kunnen ook in 1 keer met de commando git pull
