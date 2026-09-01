@@ -37,6 +37,7 @@
 # vervolgens gebruik je "git stash pop" om weer verder te werken
 
 # Mergen
+# een merge gebruik je meestal om de wijzigingen van een branch naar de main branch te brengen
 # voor mergen ga je eerst naar de branch waarmee je wilt dat gemerged wordt, vervolgens gebruik je "git merge (branch naam) -m"
 # een merge moet je twee keer uitvoeren wil je dat beide branches hetzelfde zijn
 # als er veranderingen zijn gekomen in de main branch die je ook wilt hebben in een andere branch gebruik dan "git rebase main" als je in de branch zit waar je de verandering in wilt brengen
